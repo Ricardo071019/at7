@@ -9,6 +9,12 @@ if ($temperatura <=3) {
  	echo "Dia Frio";
  }
 
- elseif () {
- 	# code...
+ elseif ($temperatura>15 and $temperatura<=29)
+  {
+ echo 'Dia Agradavel';
  }
+
+else{
+	echo '...começa a ficar demasiado calor';
+}
+?>
